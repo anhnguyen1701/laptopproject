@@ -37,9 +37,9 @@ public class HibernateConfig {
 	protected DataSource dataSource() {
 		HikariConfig dataSourceConfig = new HikariConfig();
 		dataSourceConfig.setDriverClassName("com.mysql.cj.jdbc.Driver");
-		dataSourceConfig.setJdbcUrl("jdbc:mysql://127.0.0.1:3306/laptopproject?useUnicode=true&characterEncoding=UTF-8");
-		dataSourceConfig.setUsername("root");
-		dataSourceConfig.setPassword("889910");
+		dataSourceConfig.setJdbcUrl("jdbc:mysql://host: us-cdbr-east-05.cleardb.net:3306/heroku_31fc207ed1cb063?useUnicode=true&characterEncoding=UTF-8");
+		dataSourceConfig.setUsername("bf8b06d1f27ab6");
+		dataSourceConfig.setPassword("034ed77b");
 		return new HikariDataSource(dataSourceConfig);
 	}
 
